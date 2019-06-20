@@ -1,0 +1,15 @@
+{
+  "name": "@n7-frontend/icon-font",
+  "version": "1.0.0",
+  "description": "This is the custom Net7 font that is intented to be used in all frontend applications: Muruca (Digital Humanities), DataViz (Industry 4.0) and all Nautical applications.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "files": [
+    "Font/n7-icon/fonts/*",
+    "Font/n7-icon/style.css"
+  ]
+}
