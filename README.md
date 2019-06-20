@@ -15,4 +15,4 @@ The Sketch folder contains the source file where you can edit and add icons. Eac
 7. In the Properties dialog click on **Reset Grid Size**
 8. In the Reset Grid Size dialog set the **New Grid Size** value to 16 (should be the default value) and click Reset
 6. Click "Generate font" bottom right
-7. Click on the "Preferences" button and set: (A) Font name: **N7-icon-font** (B) Class prefix: **n7-icon-**
+7. Click on the "Preferences" button and set: (A) Font name: **n7-icon** (B) Class prefix: **n7-icon-**
