@@ -39,3 +39,6 @@ Use the icons by adding the corresponding class to HTML elements. We suggest to 
 
 To check the available icons open the file: `7-icon-font/Font/n7-icon/demo.html`
 
+## 5. New icons request
+
+You can request new icons by opening new issues here: https://github.com/net7/n7-icon-font/issues. Please describe the icon that must be designed.
