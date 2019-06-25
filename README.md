@@ -25,19 +25,41 @@ To update the font in the repo, replace the downloaded files in the **n7-icon-fo
 The font can be used as a NPM package:
 
 1. Open the **package.json** file of your project.
-2. In the **dependencies** section add: `"@n7-frontend/icon-font": "git+ssh://git@github.com/net7/n7-icon-font.git#master",`.
-
-In this way the last version of the `master` branch will be used. If you need to use a specific **tag** release of the font you can add the tag identifier after the character `#`.
+2. In the **dependencies** section add: `"@n7-frontend/icon-font": "git+ssh://git@github.com/net7/n7-icon-font.git#master",` (double quotation marks included). In this way the last version of the `master` branch will be used. If you need to use a specific **tag** release of the font you can add the tag identifier after the character `#`.
+3. To use the font you will also have to **import** the main `style.css` file, writing something like this in your main project's scss import file:
+```
+// ------------------------------------ //
+// #N7-ICON-FONT
+// ------------------------------------ //
+@import '<path-to-node-modules>/node_modules/@n7-frontend/icon-font/Font/n7-icon/style.css';
+```
 
 ## 4. Use the icons
+
+#### 4.1 Available icons
+
+To check the available icons open the file: `7-icon-font/Font/n7-icon/demo.html`.
+
+#### 4.2 HTML use
 
 Use the icons by adding the corresponding class to HTML elements. We suggest to use span elements:
 
 ```
 <span class="n7-icon-lightbulb"></span>
 ```
+#### 4.3 CSS use
 
-To check the available icons open the file: `7-icon-font/Font/n7-icon/demo.html`
+You can also use the icons directly in CSS, adding them as `content` of HTML elements like in this example:
+
+```
+.class:after {
+    content: "\e902";
+    font-family: 'n7-icon';
+    ...
+}
+```
+
+The code to use in the `content` can be found in the **demo** page.
 
 ## 5. New icons request
 
