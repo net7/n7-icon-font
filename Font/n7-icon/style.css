@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'n7-icon';
-  src:  url('fonts/n7-icon.eot?8uw82t');
-  src:  url('fonts/n7-icon.eot?8uw82t#iefix') format('embedded-opentype'),
-    url('fonts/n7-icon.ttf?8uw82t') format('truetype'),
-    url('fonts/n7-icon.woff?8uw82t') format('woff'),
-    url('fonts/n7-icon.svg?8uw82t#n7-icon') format('svg');
+  src:  url('fonts/n7-icon.eot?1o7oxj');
+  src:  url('fonts/n7-icon.eot?1o7oxj#iefix') format('embedded-opentype'),
+    url('fonts/n7-icon.ttf?1o7oxj') format('truetype'),
+    url('fonts/n7-icon.woff?1o7oxj') format('woff'),
+    url('fonts/n7-icon.svg?1o7oxj#n7-icon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.n7-icon-fondo-fotografico:before {
+  content: "\e9f0";
+}
 .n7-icon-thumbs:before {
   content: "\e9ef";
 }
